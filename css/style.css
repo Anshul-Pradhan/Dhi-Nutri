@@ -77,6 +77,9 @@ body{
     font-size: 16px;
     line-height: 150%;
 }
+body.stay{
+  overflow: hidden;
+}
 .bg-white{
     background-color: #fff;
 }
