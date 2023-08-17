@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.cdnfonts.com/css/antique-olive" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/lucida-handwriting-std" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Swiper CDN Start -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- Swiper CDN End -->
@@ -201,25 +202,25 @@
           <div class="container">
             <div class="down-txt">
               <div class="name">
-                  <h2>Dr. KRHUTUJA <span class="head-curve">RASAL</span></h2>
+                  <h2 data-aos="fade-up" data-aos-delay="0">Dr. KRHUTUJA <span class="head-curve">RASAL</span></h2>
               </div>
               <div class="qual">
                   <ul>
-                      <li>
+                      <li data-aos="fade-up" data-aos-delay="50">
                           BSc Nutrition & Dietetics (Clinical Dietician)
                       </li>
-                      <li>
+                      <li data-aos="fade-up" data-aos-delay="100">
                           MSc Food Science & Nutrition (Ayurvedic Food Specialisation)
                       </li>
-                      <li>
+                      <li data-aos="fade-up" data-aos-delay="150">
                           MSc Sports & Exercise Nutrition 
                       </li>
                   </ul>
               </div>
               <div class="exp">
-                  <p>Registered in the UK 🇬🇧 as a SENr (Sports & Exercise Nutrition register under the BDA- British Dietetic Association)</p>
+                  <p data-aos="fade-up" data-aos-delay="200">Registered in the UK 🇬🇧 as a SENr (Sports & Exercise Nutrition register under the BDA- British Dietetic Association)</p>
               </div>
-              <div class="cta">
+              <div class="cta" data-aos="fade-up" data-aos-delay="250">
                 <a href="#!" class="btn green">Know More</a>
               </div>
           </div>
@@ -233,12 +234,12 @@
     <section class="industries-practices bg-diff mg-extra mgt-0">
       <div class="container">
           <div class="industries-tabs-wrapper">
-            <h2><span class="head-curve big">Services</span></h2>
+            <h2 data-aos="fade-up" data-aos-delay="0"><span class="head-curve big">Services</span></h2>
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
                     <div class="industries-top-content">
                       
-                      <p class="bigger">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet volutpat, molesti fu cursus lorem fringilla habitant ac cras.</p>
+                      <p class="bigger" data-aos="fade-up" data-aos-delay="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet volutpat, molesti fu cursus lorem fringilla habitant ac cras.</p>
                   </div>
                   <div class="tabbed-section flex">
                       <div class="tabbed-headers-btn-wrapper">
@@ -617,10 +618,10 @@
           <div class="new-section-wrapper">
               <div class="publications-top-wrapper">
                   <div class="publications-heading">
-                      <h2>New and <span class="head-curve">Facts</span></h2>
+                      <h2 data-aos="fade-up" data-aos-delay="0">New and <span class="head-curve">Facts</span></h2>
                   </div>
                   <div class="publications-body">
-                    <p class="bigger">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet volutpat, molesti fu cursus lorem fringilla habitant ac cras.</p>
+                    <p class="bigger" data-aos="fade-up" data-aos-delay="50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet volutpat, molesti fu cursus lorem fringilla habitant ac cras.</p>
                   </div>
               </div>
               <div class="publications-bottom-wrapper">
@@ -849,10 +850,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/custom.js"></script>
 
 <!-- Custom Script -->
     <script>
+      AOS.init();
+    </script>
+    <script>
+      
         setTimeout(function() {
             $('.loader').addClass('active');
         }, 2000);
