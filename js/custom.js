@@ -78,3 +78,17 @@ containers.forEach((section) => {
     activeHeader.classList.add('active');
   }
 });
+const mySwiper = new Swiper ('.swiper-container', {
+  slidesPerView: 1,
+  // Optional parameters
+  direction: 'horizontal',
+  effect:'fade',
+  loop: false,
+  dots:true,
+  speed: 200,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable:true
+  },
+ mousewheel: false
+ });
